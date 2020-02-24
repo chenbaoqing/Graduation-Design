@@ -1,0 +1,59 @@
+page{
+    background: #f4f4f4;
+    color: #666;
+}
+.userAvatar{
+    width: 80rpx;
+    height: 80rpx;
+    border-radius: 50px;
+}
+.userNickname{
+    color: #878787;
+    font-size: 30rpx;
+    line-height: 80rpx;
+    margin-left: 20rpx;
+}
+.user{
+    overflow: hidden;
+}
+.user view{
+    float: left;
+}
+.item{
+    margin-top: 20rpx;
+    width: 700rpx;
+    padding: 26rpx;
+}
+.text{
+    font-size: 30rpx;
+    color: #7b9ea5;
+}
+.content{
+    overflow: hidden;
+    width: 700rpx;
+    margin-top: 15rpx;
+    background: #fff;
+}
+.content view{
+    float: left;
+}
+.img{
+    width: 100rpx;
+    height: 100rpx;
+    margin: 20rpx;
+    border: 1px solid #fff;
+    box-shadow: -3px 3px 6px rgba(0, 0, 0, 0.65); 
+}
+.title{
+    font-size: 33rpx;
+    width: 400rpx;
+    height: 100rpx;
+    padding: 20rpx;
+    /* box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.35);  */
+}
+.play{
+    margin-left: 20rpx;
+    width: 70rpx;
+    height: 70rpx;
+    margin-top: 40rpx;
+}

@@ -1,0 +1,15 @@
+<view class="container">
+    <view class="item" wx:for="{{data}}">
+        <view class="user">
+            <view><image class="userAvatar" src="{{item.cover}}"></image></view>
+            <view><text class="userNickname">{{item.speak}}</text></view>
+        </view>
+        <view class="text">{{item.diantai.content}}</view>
+        <view class="content">
+            <view><image class="img" src="{{item.diantai.cover}}"></image></view>
+            <view class="title">{{item.title}}</view>
+            <view><image class="play" bind:tap="handlePlay" data-url="{{item.url}}" 
+                src="{{isPlay?'/images/play.png':'/images/pause.png'}}"></image></view>
+        </view>
+    </view>
+</view>

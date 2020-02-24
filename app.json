@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/video/video",
+    "pages/radio/radio",
+    "pages/news/news",
+    "pages/newsDetail/newsDetail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#b3d4db",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#b3d4db",
+    "list": [
+      {
+      "pagePath": "pages/news/news",
+      "text": "news",
+      "iconPath": "/images/news.png",
+      "selectedIconPath": "/images/selected-news.png"
+    },{
+      "pagePath": "pages/radio/radio",
+      "text": "radio",
+      "iconPath": "/images/radio.png",
+      "selectedIconPath": "/images/selected-radio.png"
+    },{
+      "pagePath": "pages/video/video",
+      "text": "video",
+      "iconPath": "/images/video.png",
+      "selectedIconPath": "/images/selected-video.png"
+    }]
+  },
+  "sitemapLocation": "sitemap.json"
+}

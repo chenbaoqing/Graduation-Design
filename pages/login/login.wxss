@@ -1,0 +1,46 @@
+page{
+    background: #b3d4db;
+}
+input{
+    width: 600rpx;
+    height: 60rpx;
+}
+.userinfo {  
+    position: relative;  
+    width: 750rpx;  
+    height: 420rpx;  
+    color: #333;  
+    font-weight: bold;
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+}   
+.userinfo-avatar {  
+    overflow:hidden;  
+    display: block;  
+    width: 160rpx;  
+    height: 160rpx;  
+    margin: 20rpx;  
+    margin-top: 150rpx;  
+    border-radius: 50%;  
+    border: 2px solid #f4f4f4;  
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.35);  
+}  
+.userinfo{  
+    font-size: 14px;  
+    border-radius:40%;  
+  }  
+.container{
+    color: #f4f4f4;
+    text-align: center;
+}
+.btn{
+    width: 400rpx;
+    padding: 15rpx;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50rpx;
+    text-align: center;
+    background: #03773d;
+    border-radius: 20rpx;
+}

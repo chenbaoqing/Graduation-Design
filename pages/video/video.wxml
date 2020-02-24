@@ -1,0 +1,13 @@
+<view class="container">
+    <view class="item" wx:for="{{result}}" wx:key="{{item}}">
+        <view class="user">
+            <view><image class="userAvatar" src="{{item.header}}"></image></view>
+            <view><text class="userNickname">{{item.name}}</text></view>
+        </view>
+        <view class="content">
+            <view><text class="text">{{item.text}}</text></view>
+            <view><video src="{{item.video}}"></video></view>
+            <view><text class="passtime">{{item.passtime}}</text></view>
+        </view>
+    </view>
+</view>

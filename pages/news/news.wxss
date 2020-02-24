@@ -1,0 +1,10 @@
+.item{
+    width: 630rpx;
+    margin: auto;
+}
+.time{
+    color: #aaa;
+}
+.content{
+    background: #f4f4f4;
+}

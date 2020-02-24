@@ -1,0 +1,3 @@
+<view class="item" wx:for="{{data}}">
+    <web-view src="{{item.weburl}}" bindmessage=""></web-view>
+</view>

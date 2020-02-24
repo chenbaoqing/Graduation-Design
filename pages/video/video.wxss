@@ -1,0 +1,35 @@
+page{
+    background: #f4f4f4;
+}
+.userAvatar{
+    width: 80rpx;
+    height: 80rpx;
+    border-radius: 50px;
+    box-shadow:3px 3px 6px #5b7b83;
+}
+.userNickname{
+    color: #8a8a8a;
+    font-size: 36rpx;
+    line-height: 80rpx;
+    margin-left: 25rpx;
+}
+.user{
+    overflow: hidden;
+}
+.user view{
+    float: left;
+}
+.item{
+    margin-top: 35rpx;
+    width: 700rpx;
+    padding: 25rpx;
+    background: #fff;
+}
+.text{
+    font-size: 30rpx;
+    color: #666;
+}
+.passtime{
+    font-size: 26rpx;
+    color: #aaa;
+}
